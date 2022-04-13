@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body{
+    margin: auto;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 15, 134);
+    color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    /* background-color: rgb(228, 228, 21); */
+    padding: 22px;
+    border-radius: 12px;
+    margin: auto 5%;
+    margin-top: 22px;
+}
+.describe{
+    display: flex;
+    padding-left: 12%;
+    padding-top: 2%;
+    gap: 12%;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 400px;
+    border-radius: 50%;
+}
+h3{
+    text-align: center;
+}
+.ingredients, .method{
+    text-align: center;
+}
+.ingredients , .method {
+    display:-moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    text-align: left; 
+    margin: auto 5%;
+    padding-bottom: 22px;
+    padding-top: 22px;
+    padding-right: 12px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    height: 100%;
+    color: black;
+}
+.ingredients {
+    margin-left: 15%;
+    width: 65%;
+    background-color: rgb(230, 132, 123);
+}
+.method {
+    /* padding: auto; */
+    
+    background-color: rgb(220, 223, 227);
+}
+
+a{
+    transition: transform 3s ease-in-out;
+    transform: translate(-50%, -100%);
+}
+.reciepe{
+    display: flex;
+}
+
+.describe .right {
+    background-color: rgb(28, 226, 226);
+    margin: auto 5%;
+    padding: 22px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+body > ul{
+    margin-top: 4%;
+    list-style-type: none;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 4%;
+}
+body > ul li{
+    padding-top: 4%;
+    
+}
+body > ul li a{
+    color: rgb(17, 8, 56);
+    font-weight: 600;
+    font-style: italic;
+}
+
